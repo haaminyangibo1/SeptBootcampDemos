@@ -1,42 +1,42 @@
-// // function helloWorld(name, planet){
-// //     console.log('Hello ' + name + ' from planet ' + planet)
-// // }
+function helloWorld(name, planet){
+    console.log('Hello ' + name + ' from planet ' + planet)
+}
 
-// // function greeting(){
-// //     console.log('greeting')
-// // }
-
-
-// // function greeting2(){
-// //     console.log('greeting')
-// // }
+function greeting(){
+    console.log('greeting')
+}
 
 
-// // greeting()
-// // greeting2()
-// // helloWorld()
+function greeting2(){
+    console.log('greeting')
+}
+
+
+greeting()
+greeting2()
+helloWorld()
 
 
 // //ARROW FUNCTIONS
 
-// // let helloWorld = () => {
-// //     console.log('hello world')
-// // }
+let helloWorld = () => {
+    console.log('hello world')
+}
 
-// // let helloWorld2 = () => console.log('hello world')
-
-
-// // helloWorld3 = function(){
-// //     console.log('hello world')
-// // }
+let helloWorld2 = () => console.log('hello world')
 
 
-// let returnValueFunction = () => {
-//     let returnValue = console.log('I am in the returnValueFunction')
-//     return returnValue
-// }
+helloWorld3 = function(){
+    console.log('hello world')
+}
 
-// returnValueFunction()
+
+let returnValueFunction = () => {
+    let returnValue = console.log('I am in the returnValueFunction')
+    return returnValue
+}
+
+returnValueFunction()
 
 
 //Calculator
@@ -68,6 +68,9 @@ const addTasks = (task) => {
     tasks.push(task)
 }
 
+dogAge = () => {
+    
+}
 const removeTask = (taskIndex) =>{
     tasks.splice(taskIndex, 1)
 }

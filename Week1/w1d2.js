@@ -1,16 +1,16 @@
 
-// let imNotSure;
-// console.log(imNotSure)
+let imNotSure;
+console.log(imNotSure)
 
-// let favouriteNum = 6
+let favouriteNum = 6
 
-// favouriteNum = 9
+favouriteNum = 9
 
-// console.log(favouriteNum)
+console.log(favouriteNum)
 
-// const funString = 'Javascript is fun!'
+const funString = 'Javascript is fun!'
 
-// funString = 'Javascirpt is not fun :('
+funString = 'Javascirpt is not fun :('
 
 let str = '' //single quote
 let str2 = "" //double quote 
